@@ -1,0 +1,28 @@
+Several solutions exist to reliably center a div, even when its content overflows the specified width.  Here are two using Flexbox and Grid:
+
+**Solution 1: Using Flexbox**
+
+```css
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px; /*Example height*/
+}
+```
+
+This approach uses flexbox to center both horizontally and vertically.
+
+**Solution 2: Using Grid**
+
+```css
+div {
+  display: grid;
+  place-items: center;
+  width: 50%;
+  height: 100px; /*Example height*/
+}
+```
+
+This solution uses grid for a concise way to achieve the same centering effect.

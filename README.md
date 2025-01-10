@@ -1,0 +1,3 @@
+# CSS Centering Issue with Overflowing Content
+
+This repository demonstrates a common issue with centering elements in CSS when the content overflows the specified width.  The `margin: 0 auto;` technique only centers an element if its width is less than or equal to the width of its parent container. If the content overflows this width, the centering will fail.  The solution provided addresses this by using flexbox or grid for reliable centering, regardless of content size.

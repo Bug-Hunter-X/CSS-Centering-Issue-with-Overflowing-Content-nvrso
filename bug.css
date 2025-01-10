@@ -1,0 +1,10 @@
+The following CSS rule might cause unexpected behavior in certain browsers:
+
+```css
+div {
+  margin: 0 auto;
+  width: 50%;
+}
+```
+
+This code intends to center a div horizontally. However, if the div's content is wider than 50% of the parent container's width, the `width: 50%;` will have no effect, and the element will not be properly centered.
